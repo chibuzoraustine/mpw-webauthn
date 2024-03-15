@@ -28,22 +28,24 @@ try {
       device_id: resp.data.response.device_id
     }));
     
-    // If you want to vbiew the response in the console
+    // If you want to view the response in the console
     console.log(resp)
 }
 catch (e) {
-      console.error('registration failed', e);
+      console.error('Registration failed', e);
 }
 
 
 // Authenticating
 try {
-    const cerd = JSON.parse(localStorage.getItem('credential')!);
-    const resp = await authenticate(cred.credential_id, cred.device_id, cred.registration_session_id);
-    console.log(resp);
+    const credential = JSON.parse(localStorage.getItem('credential')!);
+    const response = await authenticate(credential.credential_id, credential.device_id, credential.registration_session_id);
+
+    // If you want to view the response in the console
+    console.log(response);
     }
 catch (e) {
-    console.error('authentication failed', e);
+    console.error('Authentication failed', e);
 }
 
 ```
