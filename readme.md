@@ -1,4 +1,4 @@
-# MoiPawWay WebAuthN
+# MoiPayWay WebAuthN
 
 mpw-webauthn is a JavaScript library designed to streamline the integration of WebAuthn (Web Authentication) into web applications. WebAuthn is a powerful standard for secure and convenient user authentication on the web, offering strong cryptographic security while eliminating the need for passwords.
 
