@@ -1,6 +1,6 @@
 {
   "name": "mpw-webauthn",
-  "version": "0.1.",
+  "version": "0.1.0",
   "description": "Client library to interact with Moipayway webauthn",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "typescript": "^5.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chibuzoraustine/mpw-webauthn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chibuzoraustine/mpw-webauthn/issues"
+  },
+  "homepage": "https://github.com/chibuzoraustine/mpw-webauthn#readme"
 }
